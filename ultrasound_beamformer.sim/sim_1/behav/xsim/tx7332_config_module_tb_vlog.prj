@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../ultrasound_beamformer.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../ultrasound_beamformer.gen/sources_1/bd/system/ipshared/34f8/hdl" --include "C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../ultrasound_beamformer.srcs/sources_1/new/delay_generator.v" \
+"../../../../ultrasound_beamformer.srcs/sources_1/new/tx7332_config_module.v" \
+"../../../../ultrasound_beamformer.srcs/sources_1/new/tx7332_spi_module.v" \
+"../../../../ultrasound_beamformer.srcs/sim_1/new/tx7332_config_module_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

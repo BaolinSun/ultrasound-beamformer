@@ -1,0 +1,1 @@
+-wto "ac0db505b8ed421fa2325cc0163e1922" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "tx7332_spi_read_module_tb_behav" "xil_defaultlib.tx7332_spi_read_module_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

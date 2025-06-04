@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" --include "../../../../ultrasound_beamformer.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../ultrasound_beamformer.gen/sources_1/bd/system/ipshared/34f8/hdl" \
+"../../../bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0.v" \
+"../../../bd/system/ip/system_key_module_0_0/sim/system_key_module_0_0.v" \
+"../../../bd/system/sim/system.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

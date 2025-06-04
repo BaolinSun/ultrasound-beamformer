@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../ultrasound_beamformer.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../ultrasound_beamformer.gen/sources_1/bd/system/ipshared/34f8/hdl" --include "C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
+"../../../../ultrasound_beamformer.gen/sources_1/ip/delay_mem/sim/delay_mem.v" \
+"../../../../ultrasound_beamformer.srcs/sim_1/new/delay_mem_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

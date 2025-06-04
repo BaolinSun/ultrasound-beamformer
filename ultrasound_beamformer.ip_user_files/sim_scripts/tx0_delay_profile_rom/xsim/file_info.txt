@@ -1,0 +1,2 @@
+tx0_delay_profile_rom.v,verilog,xil_defaultlib,../../../../ultrasound_beamformer.gen/sources_1/ip/tx0_delay_profile_rom/sim/tx0_delay_profile_rom.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
